@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 100vh;
+}
+.note.new{
+  background-color: aquamarine;
+}
+textarea{
+  border: none;
+  resize: none;
+  outline: none;
+  background-color: aquamarine;
+}
+.notes-list{
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.note{
+  background-color: aqua;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: blue;
+  padding: 1rem;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+}
+.note-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.save{
+  background-color: blue;
+  border: none;
+  border-radius: 18px;
+  padding: 10px 12px 10px 12px;
+}
+.save:hover{
+  background-color: red;
+  cursor:pointer;
+}
+.search{
+  display:flex;
+  align-items: center;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.search input{
+  border: none;
+  background-color: antiquewhite;
+  outline: none;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dark-mode{
+  background-color: black;
+}
+.dark-mode h1{
+  color: white;
+}
