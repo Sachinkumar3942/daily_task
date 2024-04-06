@@ -14,7 +14,8 @@ function App() {
     <div className={`${darkMode && 'dark-mode'}`}>
       <div className="App">
         <Home />
-        <Header/>
+        <Header handleDarkMode={setDarkMode}/>
+        <Dashboard />
       </div>
     </div>
   );

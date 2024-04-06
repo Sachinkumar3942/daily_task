@@ -8,7 +8,7 @@ const Home = () => {
             <div className='container'>
                 <Sidebar />
                 {/* <Header handleDarkMode={setDarkMode} /> */}
-                <Dashboard />
+                
 
             </div>
         </div>
