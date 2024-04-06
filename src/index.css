@@ -100,13 +100,32 @@ textarea {
   background-color: black;
 }
 
-.dark-mode h1 {
+.dark-mode div {
   color: white;
+}
+.dark-mode .box {
+  background-color: #18253e;
+}
+.dark-mode .dash2 {
+  background-color: #18253e;
+}
+.dark-mode .dash3 {
+  background-color: #18253e;
+}
+.dark-mode .Sidebar {
+  background-color: #18253e;
+  color: #ffffff;
+}
+.dark-mode .title {
+  font-size: 20px;
+  background: linear-gradient(to right, rgb(250, 249, 249) 54%, #FF0060 46%);
+  font-weight: 800;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .title {
-  font-size: 20px;
-  /* You can adjust the font size as needed */
   background: linear-gradient(to right, rgb(1, 0, 0) 54%, #FF0060 46%);
   font-weight: 600;
   -webkit-background-clip: text;

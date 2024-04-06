@@ -14,7 +14,7 @@ const Header = ({ handleDarkMode }) => {
             <button onClick={() => handleDarkMode(
                 (previousDarkMode) => !previousDarkMode
             )}
-                className="save">Toggle
+                className="save">Switch mode
             </button>
             <div className="rightpart">
                 <div>
